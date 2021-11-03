@@ -16,15 +16,25 @@ a:hover {
     color: black;
 }
 
-/* calrenda */
+/* calendar */
 .calendar__header,
-.calendar__body {
-    background-color: #fffaeb;
+.calendar__body,
+.color-calendar {
+    background-color: #fffaeb !important;
 }
 
-/* calrenda */
+.color-calendar {
+    justify-content: center !important;
+}
+/* calendar */
 
 /* calculator */
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .all_button {
     display: grid;
     column-gap: 3%;
@@ -37,7 +47,6 @@ a:hover {
 }
 
 /* calculator */
-
 
 /* books */
 .book__image {
@@ -132,15 +141,15 @@ a:hover {
     background-color: #fff;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, .2);
-    border-radius: .3rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
     outline: 0;
 }
 
 @media (min-width: 768px) {
     .modal-content {
-        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -177,7 +186,7 @@ a:hover {
     line-height: 1;
     color: #000;
     text-shadow: 0 1px 0 #fff;
-    opacity: .5;
+    opacity: 0.5;
     text-decoration: none;
 }
 
@@ -186,7 +195,7 @@ a:hover {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-    opacity: .75;
+    opacity: 0.75;
 }
 
 .modal-body {
@@ -200,7 +209,6 @@ a:hover {
 }
 
 /* books */
-
 
 /* notes */
 .notes__area {
@@ -227,7 +235,6 @@ a:hover {
 }
 
 /* notes */
-
 
 /* forecast */
 .location_card {
@@ -258,7 +265,6 @@ a:hover {
     margin-right: 15%;
     background: rgba(255, 235, 205, 0.774);
     border-radius: 10%;
-
 }
 
 .card_body {
@@ -273,7 +279,6 @@ a:hover {
 }
 
 /* forecast */
-
 
 /* news */
 .carousel-wrap {
