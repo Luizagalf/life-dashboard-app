@@ -4,3 +4,5 @@
 
 Для создания приложения использовался фреймворк Bulma, реализовано взаимодействие с открытыми API и сохранение данных в LocalStorage для отображения заметок и статистики.
 Технологии: Javascript (ES6), Bulma, HTML5, CSS3, API, LocalStorage, Git
+
+Внешний вид приложения: https://github.com/Luizagalf/lifedashboard/blob/master/assets/images/appdemo.png
