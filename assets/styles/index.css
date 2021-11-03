@@ -1,16 +1,13 @@
 .bigtitle {
     text-align: center;
 }
-
 p {
     color: black;
 }
-
 a {
     text-decoration: none;
     color: black;
 }
-
 a:hover {
     text-decoration: underline;
     color: black;
@@ -29,7 +26,6 @@ a:hover {
 /* calendar */
 
 /* calculator */
-
 .calculator {
     display: flex;
     flex-direction: column;
@@ -40,12 +36,10 @@ a:hover {
     column-gap: 3%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
 .calc {
     margin-top: 1rem;
     margin-right: 0;
 }
-
 /* calculator */
 
 /* books */
@@ -53,43 +47,34 @@ a:hover {
     display: inline-block;
     width: 100px;
 }
-
 .book__title {
     font-size: 15px;
 }
-
 .book__author {
     font-size: 12px;
 }
-
 .books-carousel .slick-prev {
     left: 0px;
     z-index: 1;
 }
-
 .books-carousel .slick-next {
     right: 0px;
 }
-
 .books-carousel .slick-prev::before,
 .books-carousel .slick-next::before {
     color: #ccc;
 }
-
 .books-carousel .slick-dots {
     visibility: hidden;
 }
-
 .books-carousel {
     width: 100%;
     margin-top: 50px;
     padding-left: 8%;
 }
-
 .book__content {
     cursor: pointer;
 }
-
 .modal {
     display: block;
     position: fixed;
@@ -107,26 +92,22 @@ a:hover {
     margin: 0;
     padding: 0;
 }
-
 .modal.opened {
     opacity: 1;
     pointer-events: auto;
     overflow-y: auto;
 }
-
 .modal-dialog {
     position: relative;
     width: auto;
     margin: 10px;
 }
-
 @media (min-width: 576px) {
     .modal-dialog {
         max-width: 500px;
         margin: 30px auto;
     }
 }
-
 .modal-content {
     position: relative;
     display: -webkit-box;
@@ -145,14 +126,12 @@ a:hover {
     border-radius: 0.3rem;
     outline: 0;
 }
-
 @media (min-width: 768px) {
     .modal-content {
         -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     }
 }
-
 .modal-header {
     display: -webkit-box;
     display: -webkit-flex;
@@ -169,7 +148,6 @@ a:hover {
     padding: 15px;
     border-bottom: 1px solid #eceeef;
 }
-
 .modal-title {
     margin-top: 0;
     margin-bottom: 0;
@@ -177,7 +155,6 @@ a:hover {
     font-size: 1.25rem;
     font-weight: 500;
 }
-
 .close {
     float: right;
     font-family: sans-serif;
@@ -189,7 +166,6 @@ a:hover {
     opacity: 0.5;
     text-decoration: none;
 }
-
 .close:focus,
 .close:hover {
     color: #000;
@@ -197,7 +173,6 @@ a:hover {
     cursor: pointer;
     opacity: 0.75;
 }
-
 .modal-body {
     position: relative;
     -webkit-box-flex: 1;
@@ -207,33 +182,27 @@ a:hover {
     padding: 15px;
     overflow: auto;
 }
-
 /* books */
 
 /* notes */
 .notes__area {
     padding: 1%;
 }
-
 .notes__area-name,
 .notes__area-title,
 .notes__area-textarea,
 .notes__area-reminder {
     margin: 10px;
 }
-
 .notes_btn {
     margin: 10px;
 }
-
 .notes_storage {
     padding: 10px 0px 10px 0px;
 }
-
 .notes__reminder-date {
     display: none;
 }
-
 /* notes */
 
 /* forecast */
@@ -244,13 +213,11 @@ a:hover {
     border-radius: 2% 2% 0% 0%;
     padding-top: 1em;
 }
-
 .card_main__city,
 .card_body {
     padding-top: 15px;
     text-transform: uppercase;
 }
-
 .city_name,
 .temp {
     display: grid;
@@ -259,25 +226,21 @@ a:hover {
     margin: 0;
     padding-top: 5px;
 }
-
 .inner_card {
     margin-left: 15%;
     margin-right: 15%;
     background: rgba(255, 235, 205, 0.774);
     border-radius: 10%;
 }
-
 .card_body {
     /* padding-top: 15px; */
     padding: 15px 1em 1em 1em;
     display: grid;
 }
-
 .card_current_weather {
     display: grid;
     justify-content: center;
 }
-
 /* forecast */
 
 /* news */
@@ -285,16 +248,13 @@ a:hover {
     margin: auto;
     position: relative;
 }
-
 .owl-carousel .owl-nav {
     overflow: hidden;
     height: 0px;
 }
-
 .owl-carousel .item {
     text-align: center;
 }
-
 .owl-carousel .nav-btn {
     height: 47px;
     position: absolute;
@@ -302,31 +262,25 @@ a:hover {
     cursor: pointer;
     top: 100px !important;
 }
-
 .owl-carousel .owl-prev.disabled,
 .owl-carousel .owl-next.disabled {
     pointer-events: none;
     opacity: 0.2;
 }
-
 .owl-carousel .prev-slide {
     background: url(nav-icon.png) no-repeat scroll 0 0;
     left: -33px;
 }
-
 .owl-carousel .next-slide {
     background: url(nav-icon.png) no-repeat scroll -24px 0px;
     right: -33px;
 }
-
 .owl-carousel .prev-slide:hover {
     background-position: 0px -53px;
 }
-
 .owl-carousel .next-slide:hover {
     background-position: -24px -53px;
 }
-
 /* news */
 
 /* name */
@@ -343,14 +297,11 @@ span.img-text {
     display: block;
     text-transform: capitalize;
 }
-
 span.img-text:hover {
     color: #2caae1;
 }
-
 .name__box {
     display: flex;
     justify-content: center;
 }
-
 /* name */

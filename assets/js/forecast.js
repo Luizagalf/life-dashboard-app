@@ -24,28 +24,6 @@ function getDayIcon() {
     }
 }
 
-//  WORKING SCRIPT
-
-// function getDayIcon() { 
-//     if (time>=5 && time < 12) {
-//         let dayIcon = document.getElementById('day_icon');
-//         dayIcon.src = 'forecast_img/morning.jpg'
-//     } 
-//     if (time >= 12 && time < 17) {
-//         let dayIcon = document.getElementById('day_icon');
-//         dayIcon.src = 'forecast_img/dayicon.jpg'
-//     } 
-//     if (time >= 17 && time < 22) {
-//         let dayIcon = document.getElementById('day_icon');
-//         dayIcon.src = 'forecast_img/evening.jpg'
-//     } 
-
-//     if (time >= 22 && time < 5) {
-//         let dayIcon = document.getElementById('day_icon');
-//         dayIcon.src = 'forecast_img/nightIcon.jpg'
-//     }
-// }
-
 const key = '&appid=77563d0b85ff6645fb4a1ff6cd388c22'
 const baseURL = 'http://api.openweathermap.org/data/2.5/weather?q='
 const deg = '°C'

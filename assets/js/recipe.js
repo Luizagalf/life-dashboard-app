@@ -21,8 +21,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     randomRecipe();
 });
 
-
-
 heartBtn.addEventListener('click', () => {
     let unLiked = getId("recipeUnlikedHeart");
     let liked = getId("recipeLikedHeart");
